@@ -1,4 +1,3 @@
-# Motor02
+# 4Kuscheltier mit ANGULAR
 
-13.03.2022 (2.0.1)
-XXXXX Es geht los mit Motor02 (GIT-VS)
+
