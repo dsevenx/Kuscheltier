@@ -1,0 +1,15 @@
+<app-myheader></app-myheader>
+
+<div class="flexrow">
+  <div class="containerkuscheltier">
+    <app-kuscheltierfriendbox></app-kuscheltierfriendbox>
+
+    <app-kuscheltiercard
+      *ngFor="let index of [0, 1, 2]"
+      [text]="kuscheltiertext[index]"
+      [bild]="bilder[index]"
+    ></app-kuscheltiercard>
+  </div>
+
+  <app-kuscheltiervorschlaege></app-kuscheltiervorschlaege>
+</div>

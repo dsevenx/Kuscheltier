@@ -1,0 +1,48 @@
+.card {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .buttonlike {
+    width: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 30px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonnachricht {
+    width: 45%;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    height: 30px;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

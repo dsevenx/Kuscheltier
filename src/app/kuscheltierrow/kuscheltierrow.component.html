@@ -1,0 +1,14 @@
+<div class="vorschlaege">
+  <img src="{{ bild }}" />
+  <div class="vorschlagstext name">
+    <b>{{ name }}</b>
+    <br />
+    <span class="vorschlagstextinnen">{{ beschreibung }}</span>
+  </div>
+  <a
+    *ngIf="kannFolgen"
+    class="alink"
+    (click)="fs.addFriend(name, beschreibung, bild); kannFolgen = false"
+    >Folgen</a
+  >
+</div>

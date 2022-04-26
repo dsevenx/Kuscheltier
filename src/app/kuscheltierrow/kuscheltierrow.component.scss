@@ -1,0 +1,32 @@
+.vorschlaege {
+  display: flex;
+  align-items: center;
+  img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.vorschlagstext {
+  padding-left: 10px;
+}
+
+.vorschlagstextinnen {
+  font-size: 80%;
+}
+
+.name {
+  width: 150px;
+}
+
+.alink {
+  font-size: 15px;
+  color: blue;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}

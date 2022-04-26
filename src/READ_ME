@@ -1,0 +1,19 @@
+-- zum Erzeugen eines Projectes
+ng new angular-project-angular
+
+-- zum Erzeugen einer Componente
+ng g c kuscheltiercard
+
+-- compiliert ts-dateien
+tsc script.ts
+
+-- installieren typescript
+sudo npm install -g typescript
+
+-- starte von an
+ng serve --open
+
+-- ein Service generiren
+ng g s friend
+
+ng  add @angular/material

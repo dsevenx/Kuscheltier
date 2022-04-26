@@ -1,0 +1,15 @@
+<app-kuscheltierrow
+  [name]="'Superente'"
+  [bild]="'assets/image/KB_ENTE.jpg'"
+  [beschreibung]="'Ich bin die Super-Kuschelente.'"
+  [kannFolgen]="false"
+></app-kuscheltierrow>
+
+<div class="margin-bottom-freundes"><b>Vorschläge für Freunde</b></div>
+
+<app-kuscheltierrow
+  *ngFor="let index of [0, 1]"
+  [name]="names_vorschlaege[index]"
+  [bild]="bilder_vorschlaege[index]"
+  [beschreibung]="beschreibung_vorschlaege[index]"
+></app-kuscheltierrow>

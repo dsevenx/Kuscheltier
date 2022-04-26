@@ -1,0 +1,18 @@
+.friendrow {
+  display: flex;
+  color: gray;
+}
+
+.friend {
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  font-size: 12px;
+  text-align: center;
+  flex-direction: column;
+  margin-right: 10px;
+}
